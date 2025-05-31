@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS E HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+    <div class = "fundo">
+
+        <div class="pai-texto">
+         <h1 class=" TITULO">
+            Shield Your Skin from the Sun's Rays! Stay Protected with Our Premium Sunscreen!
+       </h1>
+        <p>
+          Don't let harmful UV rays ruin your fun in the sun! Our advanced sunscreen formula is your ultimate defense against sunburn and skin damage. 
+           ith a high SPF and broad-spectrum protection, 
+           our sunscreen effectively blocks both UVA and UVB rays.</p>
+       <p>order now </p>
+      
+
+       <div>
+          <img src="images//image 47 (2).png">
+         <img src="images/image 46 (1).png">
+         <img src="images/wepik-export-20230710115433rjeX 1 (1).png">
+
+    </div>
+
+
+
+#codigo em CSS
+
+fundo{
+    background-color: #EFFAFF;
+    width: 1440px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pai-texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+     
+}
+
+
+.TITULO {
+    color: #FF8A00;
+    font-family: "Major Mono display", monospace;
+     
+
+}
