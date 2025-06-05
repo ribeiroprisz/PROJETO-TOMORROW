@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOMORROW- HTML/CSS- TRABALHO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="homepage">
+        <div class="titulos">
+        <h2 class="jv">J V</h2>
+        <p class="Restaurante">Restaurant<p>
+        </div>   
+
+        <div class="text">
+        <h1 class="texto-principal">Taste the Extraordinary</h1>
+        <p class="texto-pequeno">Indulge in a Culinary Journey Crafted with Passion and Precision. <br> Experience Unforgettable Flavors and Exceptional Dining Moments.</p>
+        </div>
+
+    <div class="botoes">
+        <h2 class="botao1">Menu</h2>
+        <h2 class="botao2">Order Now</h2>
+    </div>    
+
+    <img src="pizzas.png.png" rel="pizzas"
+
+    </div>
+</body>
+</html>
+
+
+
+CSS
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Mina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Mina:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    width: 948.45px;
+    height: 467.69px;
+    top: 20.97px;
+    left: 40.55px;
+    overflow: hidden;
+    ;
+}
+
+
+.homepage{
+
+    width: 989px;
+    height: 2577.73px;
+    left: 3px;
+
+}
+
+.jv{
+    font-family: 'Limelight';
+    color: #FFAE00;
+}
+.Restaurante{
+    font-family: 'Mina';
+    flex-direction: row;
+    font-size: 12.37px;
+    letter-spacing: 17%;
+    line-height: 14.95px;
+    vertical-align: bottom;
+    font-size: 100;
+    
+
+}
+.titulos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 35px;
+}
+
+.text{
+    font-family: 'poppins';
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 35px;
+
+}
+
+.texto-principal{
+    align-items: center;
+    margin-top: 160px;
+}
+.texto-pequeno{
+    display: flex;
+    margin-top: -1%;
+
+}
+
+.botoes{
+    font-family: 'Poppins';
+    display: flex;
+    gap: 15px;
+    margin-left: 35px;
+    border-radius: 50px;
+
+
+}
+
+.botao1{
+    background-color: #FFAE00;
+    border-radius: 100px;
+    border: none; 
+    padding: 10px 25px;
+}
+
+.botao2{
+    background-color: #FFAE00;
+    border-radius: 100px;
+    border: none; 
+    padding: 10px 25px;
+    gap: 15px;
+}
+
+img{
+    display: flex;
+    padding: 50px 1116px;
+    margin-top: -300px;
+    margin-right: 900px;
+    width: 412.37px;
+    height: 401.71px;
+      
+}
+
+
