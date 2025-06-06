@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JV Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-content">
+      <h1>Welcome to <span class="highlight">JV Restaurant</span></h1>
+      <p>
+        We take pride in providing the ultimate pizza experience. Our menu
+        features a mouthwatering selection of handcrafted pizzas made from
+        the finest ingredients, including our signature dough and homemade
+        sauces.
+      </p>
+      <img src="images/temperos.png"  class="temperos-img" />
+    </div>
+    <div class="right-content">
+      <img src="images/macarrao.png" class="macarrao-img" />
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Layout principal */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  gap: 60px;
+}
+
+.left-content {
+  flex: 1;
+  max-width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.left-content h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #ff9d00;
+}
+
+.left-content p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.temperos-img {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+/* Imagem principal à direita */
+.right-content {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.macarrao-img {
+  width: 340px;
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .left-content, .right-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .right-content {
+    margin-top: 40px;
+  }
+}
