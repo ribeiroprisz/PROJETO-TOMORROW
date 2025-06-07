@@ -1,0 +1,144 @@
+Html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Happy Customer</title>
+  <link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="testemunhas">
+    <h2>Our happy customer</h2>
+    <p class="avaliação">
+      A customer is a person or business that buys goods or services from another business.
+      Customers are crucial because they generate revenue. Without them, businesses would go out of business.
+    </p>
+
+    <div class="cartões">
+      
+      <div class="cartão">
+        <img src="imagens/xla-removebg-preview 1.png" alt="Salman Khan" />
+        <div class="estrelas">
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+        </div>
+        <h3>Salman Khan</h3>
+        <p>A customer is a person or business that buys goods or services from another business.</p>
+      </div>
+
+      
+      <div class="cartão">
+        <img src="imagens/Virat_Kohli_Indian_cricketer_PNG_photo-removebg-preview 1.png" alt="Virat Kohli" />
+        <div class="estrelas">
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+        </div>
+        <h3>Virat Kohli</h3>
+        <p>A customer is a person or business that buys goods or services from another business.</p>
+      </div>
+
+    
+      <div class="cartão">
+        <img src="imagens/Wish_Shahrukh_Khan_On_His_47_Birthday_-_Memsaab-removebg-preview 1.png" alt="Shahrukh Khan" />
+        <div class="estrelas">
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+          <img src="imagens/Star 2.png" alt="Estrela" class="estrela" />
+        </div>
+        <h3>Shahrukh Khan</h3>
+        <p>A customer is a person or business that buys goods or services from another business.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
+Css
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+}
+
+.testemunhas {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testemunhas h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testemunhas .avaliação {
+  font-size: 14px;
+  color: #000000;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.cartões {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cartão {
+  width: 250px;
+  padding: 20px;
+  box-shadow: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.cartão.estrelas .estrela {
+  width: 18px;
+  height: 18px;
+}
+
+.estrelas {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.estrela {
+  width: 10px;
+  height: 10px;
+}
+
+.cartão h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cartão p {
+  font-size: 13px;
+  color: #000000;
+}
