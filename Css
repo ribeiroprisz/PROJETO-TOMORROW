@@ -1,0 +1,332 @@
+.homepage{
+
+  width: 989px;
+  height: 650.73px;
+  left: 3px;
+
+}
+
+.jv{
+  font-family: 'Limelight';
+  color: #FFAE00;
+}
+.Restaurante{
+  font-family: 'Mina';
+  flex-direction: row;
+  font-size: 12.37px;
+  letter-spacing: 17%;
+  line-height: 14.95px;
+  vertical-align: bottom;
+  font-size: 100;
+  
+
+}
+.titulos{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 35px;
+}
+
+.text{
+  font-family: 'poppins';
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 35px;
+
+}
+
+.texto-principal{
+  align-items: center;
+  margin-top: 160px;
+}
+.texto-pequeno{
+  display: flex;
+  margin-top: -1%;
+
+}
+
+.botoes{
+  font-family: 'Poppins';
+  display: flex;
+  gap: 15px;
+  margin-left: 35px;
+  border-radius: 50px;
+
+
+}
+
+.botao1{
+  background-color: #FFAE00;
+  border-radius: 100px;
+  border: none; 
+  padding: 10px 25px;
+}
+
+.botao2{
+  background-color: #FFAE00;
+  border-radius: 100px;
+  border: none; 
+  padding: 10px 25px;
+  gap: 15px;
+}
+
+img{
+  display: flex;
+  margin-top: -300px;
+  margin-right: 900px;
+  width: 412.37px;
+  height: 401.71px;
+    
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f4f4;
+}
+
+.menu {
+  background-color: #FFAE00;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.cartões {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.cartão {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 220px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cartão img {
+  width: 180px;
+  height: 180px;
+  border-radius: 70%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+  background-color: transparent;
+}
+
+.cartão h3 {
+  font-weight: 500;
+  margin: 10px auto;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.cartão p {
+  font-weight: 200;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.4;
+  height: 4.2em;
+  overflow: hidden;
+  text-align: left;
+}
+
+.cartão .preço {
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.Botão {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px auto 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  width: fit-content;
+}
+
+.Botão:hover {
+  background-color: #000;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Layout principal */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  gap: 60px;
+}
+
+.left-content {
+  flex: 1;
+  max-width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.left-content h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #ff9d00;
+}
+
+.left-content p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.temperos-img {
+  width: 400px;
+  display: flex;
+  max-width: 70%;
+  border-radius: 100px;
+}
+
+/* Imagem principal à direita */
+.right-content {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.macarrao-img {
+  width: 340px;
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .left-content, .right-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .right-content {
+    margin-top: 40px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+}
+
+.testemunhas {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testemunhas h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testemunhas .avaliação {
+  font-size: 14px;
+  color: #000000;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.cartões {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cartão {
+  width: 250px;
+  padding: 20px;
+  box-shadow: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.cartão.estrelas .estrela {
+  width: 18px;
+  height: 18px;
+}
+
+.estrelas {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.estrela {
+  width: 10px;
+  height: 10px;
+}
+
+.cartão h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cartão p {
+  font-size: 13px;
+  color: #000000;
+}
